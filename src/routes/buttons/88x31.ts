@@ -19,18 +19,18 @@ interface Data {
 	backlink_buttons: number[][]
 }
 
-const res = await fetch('https://matdoes.dev/buttons/88x31.cbor')
+const res = await fetch('https://catdoes.dev/buttons/88x31.cbor')
 const buffer = await res.arrayBuffer()
 export const data: Data = decode(new Uint8Array(buffer))
 
 export function buttonUrlFromIndex(index: number) {
 	const hash = buttonHashFromIndex(index)
 	const ext = data.button_file_exts[index]
-	return `https://matdoes.dev/buttons/i/${hash}.${ext}`
+	return `https://catdoes.dev/buttons/i/${hash}.${ext}`
 }
 
 export function buttonUrlFromHash(hash: string) {
-	return `https://matdoes.dev/buttons/i/${hash}`
+	return `https://catdoes.dev/buttons/i/${hash}`
 }
 
 export function buttonHashFromIndex(index: number) {

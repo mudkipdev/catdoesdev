@@ -166,7 +166,7 @@ Here's some random miscellaneous stats about usernames that I think are interest
 <br />
 <br />
 
-<span><strong><a href="https://matdoes.dev/minecraft-uuids/api/words.txt">Most common words</a></strong> (split by underscores and camelCase):</span>
+<span><strong><a href="https://catdoes.dev/minecraft-uuids/api/words.txt">Most common words</a></strong> (split by underscores and camelCase):</span>
 
 ```
 1. the

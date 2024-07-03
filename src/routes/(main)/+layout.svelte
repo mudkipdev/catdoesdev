@@ -82,7 +82,7 @@
 		</main>
 
 		<footer>
-			<p class="copyright">&copy; {copyrightYear} mat</p>
+			<p class="copyright">&copy; {copyrightYear} cat</p>
 		</footer>
 	</div>
 {/key}

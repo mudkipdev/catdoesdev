@@ -1,16 +1,16 @@
 ---
-title: Who is mat?
+title: Who is cat?
 published: 2019-04-25T01:08:27.057+00:00
 ---
 
-Welcome to mat does dev. You might have some questions, so I'm here to answer them.
+Welcome to cat does dev. You might have some questions, so I'm here to answer them.
 
-![mat does dev](favicon.png)
+![cat does dev](favicon.png)
 
 ---
 
-**Who is mat?**
-I am mat. I am a human that lives somewhere on a planet called Earth, you might've heard of it.
+**Who is cat?**
+I am cat. I am a cat that lives somewhere on a planet called Earth, you may have heard of it.
 
 **What do you do?**
 I do dev. To clarify, I mean dev as in software development.
@@ -30,4 +30,4 @@ The backend for this website was written by me in pure [Python](https://www.pyth
 The frontend was made with [VanillaJS](http://vanilla-js.com)
 
 **How can I contact you?**
-You can contact me through Matrix (@mat:matdoes.dev).
+You can contact me through Matrix (@cat:catdoes.dev).

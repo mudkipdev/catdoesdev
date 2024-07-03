@@ -85,7 +85,7 @@ export function initGravity(): () => void {
 			el.style.margin = '0 auto'
 			if (el.id === 'main-title') {
 				originalTextContent = el.textContent
-				el.textContent = 'matdoesdev'
+				el.textContent = 'catdoesdev'
 			}
 		}
 		const bb = el.getBoundingClientRect()

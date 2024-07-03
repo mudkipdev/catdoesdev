@@ -10,19 +10,19 @@
 	let cachedStats: Map<string, number> | null = null
 
 	async function fetchTrio(trio: string): Promise<string[]> {
-		const res = await fetch(`https://matdoes.dev/minecraft-uuids/api/${trio}.txt`)
+		const res = await fetch(`https://catdoes.dev/minecraft-uuids/api/${trio}.txt`)
 		const text = await res.text()
 		return text.split('\n')
 	}
 
 	async function fetchSample(): Promise<string[]> {
-		const res = await fetch('https://matdoes.dev/minecraft-uuids/api/sample.txt')
+		const res = await fetch('https://catdoes.dev/minecraft-uuids/api/sample.txt')
 		const text = await res.text()
 		return text.split('\n')
 	}
 
 	async function fetchStats(): Promise<Map<string, number>> {
-		const res = await fetch('https://matdoes.dev/minecraft-uuids/api/trios.txt')
+		const res = await fetch('https://catdoes.dev/minecraft-uuids/api/trios.txt')
 		const text = await res.text()
 
 		const stats = new Map<string, number>()

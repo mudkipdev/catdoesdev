@@ -14,7 +14,7 @@ export const GET: RequestHandler = async ({ fetch }) => {
 		return `
 <item>
 	<title>${post.title}</title>
-	<link>https://matdoes.dev/${post.slug}</link>
+	<link>https://catdoes.dev/${post.slug}</link>
 	<pubDate>${post.published}</pubDate>
 	<description>
 ${escapedPostHtml}
@@ -29,8 +29,8 @@ ${post.css}
 	const out = `
 <rss version="2.0">
 	<channel>
-		<title>mat does dev</title>
-		<link>https://matdoes.dev/blog</link>
+		<title>cat does dev</title>
+		<link>https://catdoes.dev/blog</link>
 		<description>dev and gaming</description>
 		${posts.map(item).join('')}
 	</channel>

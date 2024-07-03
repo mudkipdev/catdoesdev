@@ -1,7 +1,7 @@
 <script lang="ts">
 	import atkinsonHyperlegible from '$lib/fonts/atkinson-hyperlegible/latin.woff2'
 
-	export let title = 'matdoesdev'
+	export let title = 'catdoesdev'
 	export let description = ''
 </script>
 

@@ -209,7 +209,7 @@
 					<tr>
 						<td><img src={sparkles} alt="sparkles" width="100" height="100" /></td>
 						<td>
-							<h1>welcome to mat's site!!!</h1>
+							<h1>welcome to cat's site!!!</h1>
 						</td>
 						<td><img src={sparkles} alt="sparkles" width="100" height="100" /></td>
 					</tr>
@@ -218,7 +218,7 @@
 					<tr>
 						<td>
 							<div>
-								hi, thanks for stopping by. i am mat, i make things on the internet.
+								hi, thanks for stopping by. i am cat, i make things on the internet.
 								<br />
 								this is my personal web site on the world wide web.
 							</div>
@@ -230,7 +230,7 @@
 					<tr>
 						<td>
 							<div class="buttons">
-								<Button href="//matdoes.dev" src="mat.png" alt="matdoesdev" />
+								<Button href="//catdoes.dev" src="mat.png" alt="catdoesdev" />
 								<Button href="//adryd.com" src="adryd.png" alt="adryd" />
 								<Button href="//notnite.com" src="notnite.png" alt="notnite" />
 								<Button href="//shrecked.dev" src="shwecky.png" alt="shrecknt" />
@@ -293,7 +293,7 @@
 										<div><img src={contact} alt="contact" width="200" height="40" /></div>
 										<p>
 											my preferred method of contact is <a
-												href="https://matrix.to/#/@mat:matdoes.dev">matrix</a
+												href="https://matrix.to/#/@cat:catdoes.dev">matrix</a
 											>, but you can also email me (i have a catch-all on this domain). i'm also on
 											<a href="https://f.matdoes.dev/mat">the fediverse</a>.
 										</p>
@@ -307,9 +307,9 @@
 									<td>
 										<div><img src={links} alt="links" width="200" height="40" /></div>
 										<p>
-											i have a github at <a href="https://github.com/mat-1">github.com/mat-1</a>,
+											i have a github at <a href="https://github.com/mat-1">github.com/cat-1</a>,
 											and you can give me money through ko-fi at
-											<a href="https://ko-fi.com/matdoesdev">ko-fi.com/matdoesdev</a>.
+											<a href="https://ko-fi.com/matdoesdev">ko-fi.com/catdoesdev</a>.
 										</p>
 									</td>
 								</tr>

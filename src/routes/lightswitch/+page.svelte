@@ -87,14 +87,14 @@
 		filter: brightness(0.5);
 	}
 
-	:global(body.light-theme) main {
+	/* :global(body.light-theme) main {
 		background-color: #fff;
 		filter: brightness(1);
 	}
 	:global(body.extra-light-theme) main {
 		background-color: #fff;
 		filter: brightness(1) opacity(0.1);
-	}
+	} */
 	:global(body.extra-dark-theme) main {
 		background-color: #000;
 		filter: brightness(0.05);

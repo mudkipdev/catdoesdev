@@ -9,7 +9,7 @@ Gemini is a protocol similar to HTTP, in that it's used for transmitting (mostly
 
 Anyways, so I decided to make my website support the Gemini protocol for fun. The plan is to make it translate the HTML on my blog into Gemtext, which shouldn't be _too_ hard considering that HTML is generated from mostly markdown.
 
-[Here's an example of a typical blog post I write, mostly markdown and some HTML.](https://github.com/mat-1/matdoesdev/blob/main/src/routes/minecraft-scanning/index.svx)
+[Here's an example of a typical blog post I write, mostly markdown and some HTML.](https://github.com/mudkipdev/catdoesdev/blob/main/src/routes/minecraft-scanning/index.svx)
 
 At first, I tried using the [html_parser Rust crate](https://github.com/mathiversen/html-parser) to read the HTML and flatten it out. However, I soon ran into [issue #22: Incorrectly trimming whitespaces for text nodes](https://github.com/mathiversen/html-parser/issues/22). This made text be squished with links, and while technically I could've added workarounds by having it add spaces there I figured it'd be better to avoid issues with that in the future by just using a different crate. I looked at other HTML parsing crates and decided on [tl](https://github.com/y21/tl), which does not suffer from the same issue as html_parser.
 
@@ -69,7 +69,7 @@ Was this actually the solution? I was under the impression 0.0.0.0 would work fo
 
 This is completely unrelated to Gemini, but I wanted to mention it anyways. Originally, my website was hosted on Cloudflare Pages, since it's just a static site. However if I wanted to make other ports accessible, I'd have to make it not be proxied by Cloudflare. I decided to just move it to the server I was already hosting my [Matrix](https://matrix.org) and Mastodon (technically [Pleroma](https://pleroma.social)) instances on so I wouldn't have to buy a new server.
 
-I copied [a script](https://gist.github.com/mat-1/5cdfc9dff74d98ac1ce8b290d2f057c5) I wrote a while ago that automatically watches for changes on GitHub and runs a shell command when there's a commit. I know it's kind of cursed and I should be using a webhook or whatever but this works good enough. So anyways I made it put the build output in `/home/ubuntu/matdoesdev/build` and told Caddy to have a file-server route on `matdoes.dev` with that directory as the root.
+I copied [a script](https://gist.github.com/mat-1/5cdfc9dff74d98ac1ce8b290d2f057c5) I wrote a while ago that automatically watches for changes on GitHub and runs a shell command when there's a commit. I know it's kind of cursed and I should be using a webhook or whatever but this works good enough. So anyways I made it put the build output in `/home/ubuntu/catdoesdev/build` and told Caddy to have a file-server route on `catdoes.dev` with that directory as the root.
 
 I tried to reload Caddy, but it was taking an unusually long amount of time and eventually timed out. I enabled debug logs but didn't see anything too suspicious. I then tried to completely restart Caddy, but this made the Matrix and Pleroma instance on the server inaccessible ... After waiting about ten minutes, the issue resolved itself and the other routes were accessible again.
 

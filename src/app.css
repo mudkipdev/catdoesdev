@@ -101,7 +101,7 @@ pre {
 	color: #aad94c;
 }
 
-body.light-theme,
+/* body.light-theme,
 body.extra-light-theme {
 	--background-color: #fff;
 	--background-color-transparent: #fff0;
@@ -116,7 +116,7 @@ body.extra-light-theme {
 }
 body.extra-light-theme {
 	filter: brightness(1) opacity(0.1);
-}
+} */
 body.extra-dark-theme {
 	background-color: #000;
 	filter: brightness(0.1);

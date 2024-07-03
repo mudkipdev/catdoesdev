@@ -11,7 +11,7 @@ I used it as my primary search engine for over a year, but it was slow (mostly d
 
 A few weeks ago I decided to rewrite metasearch as (brace for it) _[metasearch2](https://github.com/mat-1/metasearch2)_ (my project names only continue to get more original).
 In this rewrite I implemented several of the things I wish I would've done when writing my first metasearch engine, including writing it in a blazingly fast 🚀🚀🚀 language.
-There's a hosted demo at [s.matdoes.dev](https://s.matdoes.dev), but I'd much rather you [host it yourself](https://github.com/mat-1/metasearch2) so I don't start getting captcha'd and ratelimited.
+There's a hosted demo at [s.catdoes.dev](https://s.matdoes.dev), but I'd much rather you [host it yourself](https://github.com/mat-1/metasearch2) so I don't start getting captcha'd and ratelimited.
 This blog post will explain what you should know if you want to make a metasearch engine for yourself.
 
 ![The search results for 'metasearch' on my metasearch engine](metasearch2-results.png)

@@ -37,4 +37,4 @@ However, we had to go further. Dafty asked @SecureConnection to change the name 
 
 At this time, many parody accounts started popping up, such as reportScammersbrother, scam-bot, NoPublicShaming, and NoTrollingBotXD.
 One day, I noticed reportScammers had suddenly stopped replying to posts. I first thought this must just be a glitch with the code, but when I looked further, I could not find any recent posts complaining about being scammed. Maybe people just stopped getting scammed? I thought this was the reason, but no staff members wanted to confirm. I made another alt account to test this, and I found out that the admins have disabled new members from being able to create posts with the word “scammed” in them.
-I sadly went to disable the code running the bot, but wanted to make one last message as reportScammers. This thread is the first and last thread by reportScammers, created by @matdoesdev.
+I sadly went to disable the code running the bot, but wanted to make one last message as reportScammers. This thread is the first and last thread by reportScammers, created by @catdoesdev.

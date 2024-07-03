@@ -20,7 +20,7 @@
 		}
 	})
 
-	const defaultSentence1 = "I'm mat, I do full-stack software development."
+	const defaultSentence1 = "I'm cat, I do full-stack software development."
 	const defaultSentence2 =
 		"This portfolio contains my blog posts and links to some of the projects I've made."
 
@@ -42,7 +42,7 @@
 		sandcatModeEnabled = true
 		const sandcatUrls = []
 		for (let i = 1; i <= 254; i++) {
-			sandcatUrls.push(`https://matdoes.dev/sandcats/${i}.jpg`)
+			sandcatUrls.push(`https://catdoes.dev/sandcats/${i}.jpg`)
 		}
 
 		const sandcatContainerEl = document.createElement('div')
@@ -115,21 +115,16 @@
 		const titleEl = document.getElementsByTagName('title')[0]
 		titleEl.textContent = content
 
-		if (/^(sand|samd)?(cat|cta|car)(doesdev)?$/.test(content)) {
-			sentence1 = 'meow meow, mew meow meow mrrp meow nyaa :3'
-			sentence2 = 'meeeoooww ^-^ purr~ meow meow mrrp meow nya meow nyaaa meow nyaa nyaa :3'
-			copyrightText = defaultCopyrightText.replace('mat', 'mta')
-			startSandcatMode()
-		} else if (/does/.test(content)) {
+		if (/does/.test(content)) {
 			let [name, action] = content.split('does')
 			name = name.trim()
 			action = action.trim()
-			sentence1 = defaultSentence1.replace('mat', name)
+			sentence1 = defaultSentence1.replace('cat', name)
 			if (action !== 'dev') {
 				sentence1 = sentence1.replace('full-stack software development', action)
 			}
 			sentence2 = defaultSentence2
-			copyrightText = defaultCopyrightText.replace('mat', name)
+			copyrightText = defaultCopyrightText.replace('cat', name)
 		} else {
 			sentence1 = defaultSentence1
 			sentence2 = defaultSentence2
@@ -159,7 +154,7 @@
 			on:input={onTitleEdited}
 			spellcheck="false"
 		>
-			matdoesdev
+			catdoesdev
 		</h1>
 
 		<IconButtonRow>

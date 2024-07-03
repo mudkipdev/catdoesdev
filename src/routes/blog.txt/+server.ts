@@ -15,7 +15,7 @@ export const GET: RequestHandler = async () => {
 		const published = new Date(post.published)
 		const publishedDate = published.toISOString().split('T')[0]
 		const padding = ' '.repeat(longestTitleLength - post.title.length)
-		content += `=> ${publishedDate} ${post.title} ${padding}https://matdoes.dev/${post.slug}.txt\n`
+		content += `=> ${publishedDate} ${post.title} ${padding}https://catdoes.dev/${post.slug}.txt\n`
 	}
 
 	return new Response(content, {

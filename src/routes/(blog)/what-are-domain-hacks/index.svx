@@ -5,7 +5,7 @@ published: 2019-06-21T17:24:30.105+00:00
 
 ![Domain Hack Example](domain-hack-example.png)
 **A domain hack is a domain in which both the top level domain (TLD) and the second level domain (SLD) are combined to make up a word or phrase.**
-For example, matdoes.dev is a domain hack for mat does dev.
+For example, catdoes.dev is a domain hack for cat does dev.
 Domain hacks are _not_ security-related and they are completely legal.
 
 Most domain hacks use country code top level domains (ccTLDs), for example, .it is for italy, .am is for Armenia, etc.

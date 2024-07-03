@@ -14,21 +14,21 @@
 		"description": "Web crawler for 88x31 buttons."
 	},
 	{
-		"name": "matdoesdev-protocols",
+		"name": "catdoesdev-protocols",
 		"href": "https://github.com/mat-1/matdoesdev-protocols",
 		"source": "https://github.com/mat-1/matdoesdev-protocols",
 		"languages": ["rust"],
 		"description": "New implementations of several internet protocols for the sole purpose of making this website viewable through them."
 	},
 	{
-		"name": "matscan",
+		"name": "catscan",
 		"href": "https://github.com/mat-1/matscan",
 		"source": "https://github.com/mat-1/matscan",
 		"languages": ["rust"],
 		"description": "Silly Minecraft server scanner with a custom TCP stack."
 	},
 	{
-		"name": "mat's packet debugger",
+		"name": "cat's packet debugger",
 		"href": "https://packet.matdoes.dev",
 		"source": "https://github.com/mat-1/minecraft-packet-debugger",
 		"languages": ["typescript", "svelte"],
@@ -42,7 +42,7 @@
 		"description": "Collection of Rust crates primarily for creating Minecraft bots."
 	},
 	{
-		"name": "mat's server scanner",
+		"name": "cat's server scanner",
 		"href": "/minecraft-scanning",
 		"languages": ["rust", "python", "typescript", "svelte"],
 		"description": "Scanning the internet for Minecraft servers for fun."
@@ -55,9 +55,9 @@
 		"description": "Fast Minecraft head API."
 	},
 	{
-		"name": "matdoesdev",
-		"href": "https://matdoes.dev",
-		"source": "https://github.com/mat-1/matdoesdev-svelte",
+		"name": "catdoesdev",
+		"href": "https://catdoes.dev",
+		"source": "https://github.com/mudkipdev/catdoesdev",
 		"languages": ["svelte"],
 		"description": "My portfolio."
 	},
@@ -76,7 +76,7 @@
 		"description": "Utilities for software developers."
 	},
 	{
-		"name": "mat's rss reader",
+		"name": "cat's rss reader",
 		"href": "https://rss.matdoes.dev",
 		"languages": ["svelte", "typescript"],
 		"description": "Simple RSS reader."
@@ -179,7 +179,7 @@
 		"description": "API wrapper for Repl Talk."
 	},
 	{
-		"name": "Old i.matdoes.dev",
+		"name": "Old i.catdoes.dev",
 		"source": "https://github.com/mat-1/i.matdoes.dev",
 		"languages": ["python"],
 		"description": "A simple image host."
@@ -192,7 +192,7 @@
 		"description": "Discord bot that automatically sends posts from Repl Talk into the #repl-talk channel in the Replit Discord."
 	},
 	{
-		"name": "Old matdoesdev",
+		"name": "Old catdoesdev",
 		"languages": ["python"],
 		"description": "My portfolio."
 	},
