@@ -1,0 +1,53 @@
+:root {
+	--background-color: #24273a;
+	--background-color-alt: #24273a;
+	--text-color: #cad3f5;
+	--text-color-alt: #cad3f5;
+	--text-color-alt-2: #5b6078;
+	--text-color-alt-3: #494d64;
+	--accent-color: #c6a0f6;
+	--text-font: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu,
+		Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+::selection {
+	background-color: #c6a0f6;
+	color: #181926;
+}
+
+.next-anchor {
+	color: #c6a0f6 !important;
+	text-decoration: underline !important;
+}
+
+a:not(.button, .back-anchor, .preview-anchor) {
+	font-weight: bold;
+}
+
+a:hover,
+button:hover,
+.button:hover {
+	filter: brightness(95%);
+}
+
+hr {
+	border: 1px solid var(--text-color);
+}
+
+button,
+.button {
+	border: none;
+	box-shadow: none;
+}
+
+.button-row > a[href='/blog'],
+.button-row > a[href='/blog']:hover {
+	background-color: #ed8796;
+	color: #181926;
+}
+
+.button-row > a[href='/projects'],
+.button-row > a[href='/projects']:hover {
+	background-color: #f5a97f;
+	color: #181926;
+}

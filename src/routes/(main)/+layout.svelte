@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../../app.css'
+	import '../../mudkip.css'
 	import { fly } from 'svelte/transition'
 	import type { LayoutData } from '../$types'
 	import { browser } from '$app/environment'

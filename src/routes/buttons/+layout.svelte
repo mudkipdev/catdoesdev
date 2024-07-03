@@ -2,6 +2,7 @@
 	import { page } from '$app/stores'
 	import { writable } from 'svelte/store'
 	import './app.css'
+	import './mudkip.css'
 
 	$: selectedPage = $page.url.pathname.split('/').pop()
 

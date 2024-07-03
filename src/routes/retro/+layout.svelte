@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte'
 	import MusicPlayer from './MusicPlayer.svelte'
 	import './app.css'
+	import './mudkip.css'
 
 	onMount(() => {
 		let musicPlayerEl = document.getElementById('music-player')
