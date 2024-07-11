@@ -44,6 +44,7 @@
 		"cookie": "^0.6.0",
 		"html-minifier": "^4.0.0",
 		"matter-js": "^0.19.0",
+		"mdsvex": "^0.11.2",
 		"postinstall-postinstall": "^2.1.0",
 		"svelte-body": "^1.4.0",
 		"turndown": "^7.2.0",
@@ -52,5 +53,10 @@
 	"engines": {
 		"node": ">=16"
 	},
-	"packageManager": "yarn@4.1.1"
+	"packageManager": "pnpm@9.5.0",
+	"pnpm": {
+		"patchedDependencies": {
+			"mdsvex@0.11.2": "patches/mdsvex@0.11.2.patch"
+		}
+	}
 }
